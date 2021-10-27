@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+.container{
+    margin-top: 25px;
+    width: 500px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.4);
+    color: honeydew;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.container button{
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+a:hover{
+    color: black;
+}

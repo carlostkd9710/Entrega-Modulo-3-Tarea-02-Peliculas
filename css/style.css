@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    min-height: 100vh;
+}
+main{
+    align-items: center;
+}
+.container{
+    width: auto;
+    padding: 10px;
+}
+.slider{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+    box-shadow: 0 0 0 5px #fff;
+}
+button:hover{
+    text-decoration: none;
+    color:whitesmoke;
+}
+a{
+    width: 100%;
+    text-decoration: none;
+    color:whitesmoke;
+}
+a:hover{
+    color: black;
+}
+.description{
+    height: 6px;
+    overflow: hidden;
+    transition: height .3s ease-in .4s ;
+}
+.description:hover{
+    height: 100px;
+}
